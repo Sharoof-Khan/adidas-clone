@@ -1,0 +1,32 @@
+.headerContainer{
+    display: flex;
+    justify-content:space-around;
+    background-color: #111;
+    color: white;
+    position: relative;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+    /* justify-content:baseline; */
+}
+.headerIcon{
+    /* margin: 20px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    /* line-height: 30px; */
+    /* border: 1px solid white; */
+    /* margin-top: 1px; */
+}
+.headerContainer>div>span{
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    /* line-height: 40px; */
+    /* margin-top: -10%; */
+
+    position: absolute;
+    /* color: red; */
+    top: 3px;
+
+    /* left: 15px; */
+}
