@@ -3,7 +3,7 @@ import AddCardIcon from '@mui/icons-material/AddCard';
 import AirportShuttleIcon from '@mui/icons-material/AirportShuttle';
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import './Header.css'
-
+import {Typography} from '@material-ui/core'
 
 const Header = () => {
   return (

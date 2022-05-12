@@ -1,0 +1,80 @@
+.headerMain{
+    /* border: 1px solid red; */
+}
+.topRight{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    margin-top: 10px;
+    /* justify-items: flex-end; */
+
+}
+
+.topRight>span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+
+
+.headerMainBottom{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+.headerMainBottomImg{
+    /* border: 1px solid black  ; */
+    width: 100%;
+    /* height: ; */
+    margin-top: -10px;
+}
+.headerMainBottomOption> span{
+    margin-left: 10px;
+    margin-right: 10px;
+    /* line-height: 50px; */
+}
+.headerMainBottomRight{
+    display: flex;
+
+    /* margin-left: -200px; */
+}
+
+.headerMainBottomSearch{
+    margin-left: -200px;
+
+}
+
+.headerMainBottomSearchInput{
+    padding: 7px;
+    background-color: #EEEEEE;
+    border: none;
+
+}
+.headerMainBottomSearchIcon{
+    position: absolute;
+    right: 320px;
+    top: 82px;
+
+}
+
+.headerMainBottomRightOption{
+    display: flex;
+    justify-content:space-between;
+    /* border: 1px solid green; */
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.headerMainBottomRightOption >p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid red; */
+}
+/* .headerMainBottomRight>input{ */
+    /* width: 100px; */
+    /* background-color: red; */
+/* } */
+
