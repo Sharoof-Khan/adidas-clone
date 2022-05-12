@@ -1,0 +1,62 @@
+.runTogether{
+    position: relative;
+
+}
+
+.runTogether>p{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    font-size: 3rem;
+    max-width: 300px;
+    color: white;
+    font-weight: 700;
+}
+
+.runTogether>small{
+    position: absolute;
+    top: 50%;
+    max-width: 480px;
+    left: 8%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.runTogether> img{
+    width: 100%;
+    object-fit: contain;
+    height: 100vh;
+}
+
+.runTogether >div{
+    display: flex;
+    position: absolute;
+    top: 58%;
+    left: 8%;
+    border: 2px solid white;
+    width: 10%;
+    /* height: 5%; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5%;
+
+}
+.runTogether>div:hover {
+    color: gray;
+
+}
+.runTogether>div>p{
+    position: absolute;
+    top: -25%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.runTogether>div>:nth-child(2){
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    /* width: 100px; */
+    /* color: red; */
+}

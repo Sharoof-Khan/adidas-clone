@@ -1,13 +1,12 @@
 import './App.css';
-import Header from './component/Header';
-import HeaderMain from './component/HeaderMain';
+
+import HomePage from './component/LandingPage/Header/HomePage';
 
 function App() {
   return (
     <div className="App">
       {/* <h1>Addidas</h1> */}
-      <Header />
-      <HeaderMain/>
+      <HomePage/>
     </div>
   );
 }

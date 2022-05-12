@@ -1,5 +1,7 @@
 // Adidas logo : https://www.adidas.co.in/glass/react/35cdb4d/assets/img/icon-adidas-logo.svg
 //  Originals logo : https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/Originals_Brand_Nav_Title_tcm209-669567.png
+// Run for sustainbility : https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/sustainability-ss22-rfto-educate-hp-mh-03-d_tcm209-880288.jpeg
+
 //   rohit:https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/rohit_G_tcm209-886471.jpg
 // yoga : https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/Yoga_SS22_Make_Space_TC_050522_tcm209-886475.jpg
 // yoga single : https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/YogaDPRaffleTCMay_tcm209-886463.jpg

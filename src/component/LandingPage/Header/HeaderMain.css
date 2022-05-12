@@ -37,6 +37,7 @@
 }
 .headerMainBottomRight{
     display: flex;
+    position: relative;
 
     /* margin-left: -200px; */
 }
@@ -54,8 +55,9 @@
 }
 .headerMainBottomSearchIcon{
     position: absolute;
-    right: 320px;
-    top: 82px;
+    right: 200px;
+
+    top: 2px;
 
 }
 
