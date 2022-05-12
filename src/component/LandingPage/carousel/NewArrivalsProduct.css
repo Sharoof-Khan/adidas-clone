@@ -8,6 +8,12 @@
     /* color: red; */
 }
 
+.NewArrivalsProductTop>:nth-child(1){
+    object-fit: contain;
+    width: 100%;
+    height: 40vh;
+}
+
 .NewArrivalsProductTop>:nth-child(3){
     padding: 2px;
     background-color: white;
@@ -22,4 +28,7 @@
 .NewArrivalsProduct:hover{
     border: 1px solid black;
 
+}
+.productInfo>:nth-child(2){
+    color: gray;
 }

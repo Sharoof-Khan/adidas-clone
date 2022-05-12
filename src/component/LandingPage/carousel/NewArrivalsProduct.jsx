@@ -13,7 +13,7 @@ const NewArrivalsProduct = ({id,title,price,tag,img,lounch}) => {
       </div>
       <div className="productInfo">
         <p>{title}</p>
-        <p>{ tag}</p>
+        <small>{ tag}</small>
         <p>{ lounch}</p>
       </div>
     </div>
