@@ -40,6 +40,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 5%;
+    cursor: pointer;
 
 }
 .runTogether>div:hover {
@@ -59,4 +60,59 @@
     top: 15%;
     /* width: 100px; */
     /* color: red; */
+}
+
+
+.popularRightNow{
+    display: flex;
+    flex-direction: column;
+
+}
+.popularRightNow>h1{
+    text-align: center;
+    font-style: italic;
+}
+.popularRightNow>div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+
+}
+
+.popularRightNow>div>span{
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.popularRightNow>div>span:hover{
+    border: 1px solid #111;
+
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+.genderOptions{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    object-fit: contain;
+}
+
+.genderOptions>div{
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 41vh;
+    width: 54vh;
+    /* border: 1px solid black; */
+    margin: 10px;
+    }
+.genderOptions>div>img{
+    width: 100%;
+    object-fit: contain;
 }

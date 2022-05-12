@@ -16,6 +16,38 @@ const HomePage = () => {
               <div>
                   <p>LEARN MORE</p>
                   <ArrowRightAltIcon />
+              </div>
+          </div>
+          <div className="popularRightNow">
+              <h1>POPULAR RIGHT NOW</h1>
+              <div>
+
+              <span>FACE COVERS</span>
+              <span>WHITE SNEAKERS</span>
+              <span>SUPER STAR</span>
+              <span>ADIDAS ORIGINALS</span>
+              <span>ULTRABOOST</span>
+              </div>
+          </div>
+
+          <div className="gender">
+              <h1>WHO ARE YOU SHOPPING FOR?</h1>
+              <div className='genderOptions'>
+                  <div>
+
+                      {/* <span>MEN</span> */}
+                      <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/evergreen-homepage-gender-navigation-men-dt_tcm209-761437.jpg" alt="Men" />
+                  </div>
+                  <div>
+                      {/* <span>WOMEN</span> */}
+                      <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/womens_1_tcm209-792193.png" alt="women" />
+
+                  </div>
+                  <div>
+                      {/* <span>KIDS</span> */}
+                      <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/kids_1_tcm209-792188.png" alt="Kids" />
+
+                  </div>
 
               </div>
           </div>
