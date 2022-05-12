@@ -3,6 +3,7 @@ import Header from './Header'
 import HeaderMain from './HeaderMain'
 import './HomePage.css'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import NewArrivalsCarousel from '../carousel/NewArrivalsCarousel';
 
 const HomePage = () => {
   return (
@@ -51,6 +52,7 @@ const HomePage = () => {
 
               </div>
           </div>
+          <NewArrivalsCarousel/>
           
     </div>
   )
