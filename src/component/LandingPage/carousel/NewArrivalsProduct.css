@@ -1,0 +1,25 @@
+.NewArrivalsProductTop{
+    position: relative;
+}
+.NewArrivalsProductTop>:nth-child(2){
+    position: absolute;
+    top: 20px;
+    left: 85%;
+    /* color: red; */
+}
+
+.NewArrivalsProductTop>:nth-child(3){
+    padding: 2px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 2%;
+    width: 40%;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+
+.NewArrivalsProduct:hover{
+    border: 1px solid black;
+
+}

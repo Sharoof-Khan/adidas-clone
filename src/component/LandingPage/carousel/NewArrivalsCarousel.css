@@ -1,4 +1,14 @@
+.newArrivalsCarousel{
+    /* overflow-x: hidden; */
+    width: 90%;
+}
 .newArrivalsCarousel>h1{
-    margin-left: 8%;
+    margin-left: 9%;
     font-style: italic;
 }
+.newArrivalsCarousel>:nth-child(2){
+    margin-left: 5%;
+    /* border: 2px solid black; */
+
+}
+
