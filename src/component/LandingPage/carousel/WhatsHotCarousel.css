@@ -1,0 +1,12 @@
+.whatsHotCarousel{
+    width: 90%;
+    position: relative;
+}
+.whatsHotCarousel>h1{
+    font-style: italic;
+    margin-left: 8%;
+
+}
+.whatsHotCarousel>:nth-child(2){
+    margin-left: 5%;
+}

@@ -1,0 +1,26 @@
+.whatsHotProduct{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* border: 1px solid black; */
+    height: 83vh;
+
+}
+
+.whatsHotProduct>div{
+    width: 92%;
+    /* border: 10px solid red; */
+}
+
+.whatsHotProduct>div>img{
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.whatsHotProductAction{
+    position: absolute;
+    /* color: red; */
+    top: 90%;
+    text-decoration: underline;
+}

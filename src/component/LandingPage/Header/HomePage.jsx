@@ -4,6 +4,7 @@ import HeaderMain from './HeaderMain'
 import './HomePage.css'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import NewArrivalsCarousel from '../carousel/NewArrivalsCarousel';
+import WhatsHotCarousel from '../carousel/WhatsHotCarousel';
 
 const HomePage = () => {
   return (
@@ -36,23 +37,24 @@ const HomePage = () => {
               <div className='genderOptions'>
                   <div>
 
-                      {/* <span>MEN</span> */}
+                      <span>MEN</span>
                       <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/evergreen-homepage-gender-navigation-men-dt_tcm209-761437.jpg" alt="Men" />
                   </div>
                   <div>
-                      {/* <span>WOMEN</span> */}
+                      <span>WOMEN</span>
                       <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/womens_1_tcm209-792193.png" alt="women" />
 
                   </div>
                   <div>
-                      {/* <span>KIDS</span> */}
+                      <span>KIDS</span>
                       <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/kids_1_tcm209-792188.png" alt="Kids" />
 
                   </div>
 
               </div>
           </div>
-          <NewArrivalsCarousel/>
+          <NewArrivalsCarousel />
+          <WhatsHotCarousel/>
           
     </div>
   )

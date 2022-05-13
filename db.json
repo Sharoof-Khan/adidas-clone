@@ -86,5 +86,160 @@
       "tag":"Men originals"
     }
   
+  ],
+  "whatsHot":[
+    {
+      "id":1,
+      "title":"FOR THE DEVIL IN YOU",
+      "desc":"Manchester United and adidas Originals team up to bring the 90's vibes back.",
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/football-fw22-manchesterunitedxoriginals-hp-tcc-1_tcm209-886636.jpg",
+      "action":"SHOP NOW"
+    },
+    {
+      "id":2,
+      "title":"WHAT’S YOUR COLOUR?",
+      "desc":"Discover which colour update of the M&M'S Forum 84 Low fits your style.",
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/ss22-pride-launch-hp-glp-teasercarousel-v1_tcm209-876835.jpg",
+      "action":"SHOP NOW"
+    },
+    {
+      "id":3,
+      "title":"GET A CHANCE TO WIN SIGNED FOOTWEAR",
+      "desc":"Take part in the draw for a chance to win signed footwear by Rohit Sharma. Exclusively for adiclub members.",
+ 
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/rohit_G_tcm209-886471.jpg",
+      "action":"ENTER RAFFLE"
+    },
+    {
+      "id":4,
+      "title":"MAKE SPACE DRAW",
+      "desc":"Win a live online Yoga session with Jessamyn Stanley on International Yoga Day, June 21st.",
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/Yoga_SS22_Make_Space_TC_050522_tcm209-886475.jpg",
+      "action":"SIGN UP ON THE APP"
+    },
+    {
+      "id":5,
+      "title":"Win Deepika Padukone’s favourites from the Yoga Collection",
+      "desc":"Stand a chance to win an ensemble of some of Deepika Padukone's favorites from the all-new adidas Yoga Make Space Flow Collection!",
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/YogaDPRaffleTCMay_tcm209-886463.jpg",
+      "action":"LEARN MORE"
+    },
+    {
+      "id":6,
+      "title":"4DFWD X PARLEY. TAKE ACTION FOR OUR OCEANS.",
+      "desc":"Don't just talk the talk. Run it.",
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/running-ss22-4dfwd-x-parley-launch-hp-teaser-carousel-card-dual-2d-d_tcm209-820245.jpg",
+      "action":"SHOP NOW"
+    },
+    {
+      "id":7,
+      "title":"LOVE UNITES",
+      "desc":"Inspired by the LGBTQIA+ community, celebrate Pride with the adidas x Kris Andrew Small collab.",
+      "img":"https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/football-fw22-manchesterunitedxoriginals-hp-tcc-1_tcm209-886636.jpg",
+
+
+      "action":"SHOP NOW"
+    }
+    
+  ],
+  "bestofadidas":[
+    {
+      "id":1,
+      "title":"Ultraboost 22 Shoes",
+      "price" :17999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+      "tag":"Performance"
+    },
+    {
+      "id":2,
+      "title":"Ultraboost 4.0 DNA Shoes",
+      "price" :16999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6c139f6f7d0c41ca9665ac5500915688_9366/Ultraboost_4.0_DNA_Shoes_Black_FY9121_06_standard.jpg",
+      "tag":"Sportswear"
+    },
+    {
+      "id":3,
+      "title":"Adicolor Classics Primeblue SST Track Pants",
+      "price" :5999,
+      "img":"https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/1c2febd0cacc4d6aa958ab8a00ff0a30_9366/adicolor-classics-primeblue-sst-track-pants.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":4,
+      "title":"Stan Smith Shoes",
+      "price" :7999,
+      "img":"https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/63885ed215264facae12adf9008972cb_9366/Stan_Smith_Parley_Shoes_White_GV7614_01_standard.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":5,
+      "title":"Mid Cut Crew Socks 3 Pair",
+      "price" :1999,
+      "img":"https://photorankmedia-a.akamaihd.net/media/d/6/i/d6iu935/thumbnail.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":6,
+      "title":"Adicolor Classics Primeblue SST Track Jacket",
+      "price" :6599,
+      "img":"https://z3photorankmedia-a.akamaihd.net/media/o/4/7/o47mc25/normal.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":7,
+      "title":"Forum Low Shoes",
+      "price" :8999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":8,
+      "title":"Stan Smith Shoes",
+      "price" :7999,
+      "img":"https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/63885ed215264facae12adf9008972cb_9366/Stan_Smith_Parley_Shoes_White_GV7614_01_standard.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":9,
+      "title":"NMD_R1 Primblue Shoes",
+      "price" :13999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/62d96641e799450fbbdfad0800cb06ed_9366/NMD_R1_Primeblue_Shoes_Black_GZ9256_01_standard.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":10,
+      "title":"Adicolor Classic 3 Stripes Tights",
+      "price" :2099,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3482c42d804346ed88e7ade5010805c5_9366/Adicolor_Classics_3-Stripes_Tights_Black_HD2350_21_model.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":11,
+      "title":"Adicolor Classic Beckenbauer Primeblue Track Paints",
+      "price" :4099,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8db86f7c0519410a9fbaad22011527fd_9366/Adicolor_Classics_Beckenbauer_Primeblue_Track_Pants_Black_H09115_21_model.jpg",
+      "tag":"Originals"
+    },
+    {
+      "id":12,
+      "title":"Adidas x Disney Fortarun Shoes",
+      "price" :5999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/72d4e486200a4417adc1ae7b0110495b_9366/adidas_x_Disney_Fortarun_Shoes_Blue_GY8569_01_standard.jpg",
+      "tag":"Sportwears"
+    },
+    {
+      "id":13,
+      "title":"Adicolor Classic 3-Stripe",
+      "price" :5999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/35d9418ae1414117be14ac46010c5827_9366/Adicolor_Classics_3-Stripes_Tee_Black_GN3495_21_model.jpg",
+      "tag":"Sportwears"
+    },
+    {
+      "id":14,
+      "title":"Manchester United 21/22 Home Jersey",
+      "price" :5999,
+      "img":"https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bfac4aab68ec4ddb82dcad2c0074a997_9366/Manchester_United_21-22_Home_Jersey_Red_H31447_21_model.jpg",
+      "tag":"Performence"
+    }
   ]
 }

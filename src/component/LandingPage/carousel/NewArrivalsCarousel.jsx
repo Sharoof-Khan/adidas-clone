@@ -37,7 +37,7 @@ const NewArrivalsCarousel = () => {
       <Carousel breakPoints={breakPoints} outerSpacing = {0}>
         {newArrival && newArrival.map((e) => (
          
-        <NewArrivalsProduct img = {e.img}  id={e.id} title = {e.title} price={e.price} tag = {e.tag} lounch = 'new' />
+        <NewArrivalsProduct key={e.id} img = {e.img}  id={e.id} title = {e.title} price={e.price} tag = {e.tag} lounch = 'new' />
        ))}
         {/* <NewArrivalsProduct img = "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/ae106af7fb33499abdbfad740147d078_9366/MandM'S_Brand_Forum_Low_84_Shoes_White_GY6313_01_standard.jpg"  id="12325"title = 'Superstar Pride Shoes'  price={12999} tag = 'Men originals' lounch = 'new' />
         <NewArrivalsProduct img = "https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/ae106af7fb33499abdbfad740147d078_9366/MandM'S_Brand_Forum_Low_84_Shoes_White_GY6313_01_standard.jpg"  id="12326"title = 'Superstar Pride Shoes'  price={12999} tag = 'Men originals' lounch = 'new' />
