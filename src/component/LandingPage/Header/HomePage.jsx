@@ -8,6 +8,8 @@ import WhatsHotCarousel from '../carousel/WhatsHotCarousel';
 import BestOfAdidasCarousel from '../carousel/BestOfAdidasCarousel';
 import HomeBottomStories from './HomeBottomStories';
 import GetOff from './GetOff';
+import Options from './Options';
+import Footer from './Footer';
 
 const HomePage = () => {
   return (
@@ -60,7 +62,9 @@ const HomePage = () => {
           <WhatsHotCarousel />
           <BestOfAdidasCarousel />
           <HomeBottomStories />
-          <GetOff/>
+          <GetOff />
+          <Options />
+          <Footer/>
           
     </div>
   )

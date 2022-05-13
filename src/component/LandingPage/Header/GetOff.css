@@ -4,6 +4,7 @@
     align-items: center;
     background-color: yellow;
     position: relative;
+    height: 20vh;
 }
 .getOff>div{
     margin: 10px;

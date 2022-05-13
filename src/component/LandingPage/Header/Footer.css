@@ -1,0 +1,80 @@
+.footer{
+    height: 20vh;
+    background-color: #424242;
+    margin-top: 2%;
+    position: relative;
+}
+.footerTopLeft{
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: 16%;
+    top: 20%;
+
+}
+.footerTopLeft>img{
+    width: 100%;
+    height: 10px;
+    /* position: absolute;   */
+    /* left: 20%;   */
+
+
+}
+.footerTopLeft>small{
+    position: absolute;
+    left: 50px;
+    top: -5px;
+    color: #E0E0E0;
+}
+.footerTopRight{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    right: 20%;
+}
+.footerTopRight>p{
+    color: #E0E0E0;
+}
+.footerTopRight>:nth-child(1){
+    position: absolute;
+    left: -100px;
+    top: 10px;
+}
+.footerTopRight>:nth-child(2){
+    position: absolute;
+    top: 1px;
+
+}
+.footerTopRight>:nth-child(3){
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    min-width: 200px;
+}
+.footerTopRight>:nth-child(4){
+    position: absolute;
+    top: 5px;
+    left: 180px;
+}
+
+.footerTopRight>:nth-child(5){
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+.footerTopRight>h4{
+    margin-left: 10px;
+    border-left: 1px solid white;
+    margin-right: 10px;
+    color: #424242;
+    
+    line-height: 30px;
+}
+
+.footerBottom>p{
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 16%;
+    color: #E0E0E0;
+    top: 100px;
+}

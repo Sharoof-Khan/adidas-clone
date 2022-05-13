@@ -1,0 +1,26 @@
+.options{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 2%;
+    margin-left: 10%;
+    justify-content:space-evenly;
+    margin-right: 10%;
+
+}
+.options>div{
+    display: flex;
+    flex-direction: column;
+    /* margin: 2%; */
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+
+.options>div>h4{
+    /* text-align: center; */
+}
+.options>div>small{
+    margin-bottom: 10px;
+    /* text-align: center; */
+    cursor: pointer;
+}
