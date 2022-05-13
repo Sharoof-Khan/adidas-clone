@@ -24,3 +24,6 @@
     top: 90%;
     text-decoration: underline;
 }
+.whatsHotProduct>div>small{
+    color: gray;
+}

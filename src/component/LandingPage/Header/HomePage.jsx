@@ -5,6 +5,9 @@ import './HomePage.css'
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 import NewArrivalsCarousel from '../carousel/NewArrivalsCarousel';
 import WhatsHotCarousel from '../carousel/WhatsHotCarousel';
+import BestOfAdidasCarousel from '../carousel/BestOfAdidasCarousel';
+import HomeBottomStories from './HomeBottomStories';
+import GetOff from './GetOff';
 
 const HomePage = () => {
   return (
@@ -54,7 +57,10 @@ const HomePage = () => {
               </div>
           </div>
           <NewArrivalsCarousel />
-          <WhatsHotCarousel/>
+          <WhatsHotCarousel />
+          <BestOfAdidasCarousel />
+          <HomeBottomStories />
+          <GetOff/>
           
     </div>
   )

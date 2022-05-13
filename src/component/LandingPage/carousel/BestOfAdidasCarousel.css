@@ -1,0 +1,14 @@
+.bestOfAdidasCarousel{
+    width: 90%;
+    position: relative;
+
+}
+
+.bestOfAdidasCarousel>h1{
+    margin-left: 8%;
+    font-style: italic;
+}
+
+.bestOfAdidasCarousel>:nth-child(2){
+    margin-left: 5%;
+}

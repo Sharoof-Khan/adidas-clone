@@ -1,0 +1,25 @@
+.getOff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    position: relative;
+}
+.getOff>div{
+    margin: 10px;
+}
+.getOffSIgn{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 6%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.getOffSIgn>:nth-child(2){
+    /* margin-top: 100px; */
+    position: absolute;
+
+}
