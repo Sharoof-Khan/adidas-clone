@@ -60,3 +60,31 @@
 // Adidas wear : https://z2photorankmedia-a.akamaihd.net/media/8/7/j/87j8s35/thumbnail.jpg
 // Adidas gym wear women : https://z2photorankmedia-a.akamaihd.net/media/n/s/6/ns6cw45/normal.jpg
 
+
+
+/***************************************  Video */
+
+/*<video loop="" autoplay="" playsinline="" src="https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-ss22-ultraboost-launch-hp-masthead-large-3d-d_wwmaoe.mp4"></video>*/
+
+
+
+
+// cLOTH
+// https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/enIN/Images/originals-ss22-forum-play-hard-hp-teaser-carousel-d_tcm209-872777.jpg
+
+
+// Jacket : https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/b1de2d2b63c046faa7ddae6f00dfe5d7_9366/Blondey_Sherpa_Pullover_Blue_GS9267_01_laydown.jpg
+
+
+
+
+// https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/330905c42b0c4ccfb060ae17013aba75_9366/m-mel-hd.jpg
+
+
+
+
+// Tops : https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/41af7b4702b54b14ba79ada90123823b_9366/3-stripes-back-tee.jpg
+
+
+// pants : https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/a11045a1eec244c387b2adbf00e6b27a_9366/essentials-3-stripes-track-pants-sj.jpg
+

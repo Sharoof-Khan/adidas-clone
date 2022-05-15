@@ -22,6 +22,11 @@
     display: flex;
     justify-content:space-around;
     margin-top: 20px;
+    text-decoration: none;
+}
+.men{
+    text-decoration: none;
+    /* color: red; */
 }
 
 .headerMainBottomImg{
@@ -67,6 +72,8 @@
     /* border: 1px solid green; */
     margin-left: 50px;
     margin-top: -10px;
+
+    text-decoration: none;
 }
 
 .headerMainBottomRightOption >p {
@@ -79,4 +86,15 @@
     /* width: 100px; */
     /* background-color: red; */
 /* } */
+
+
+.headerBasketCount{
+    position: absolute;
+
+    top: 5%;
+    right: -15%;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: red;
+}
 

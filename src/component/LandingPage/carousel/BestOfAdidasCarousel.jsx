@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Carousel from 'react-elastic-carousel'
-import BestOfAdidasProduct from './BestOfAdidasProduct'
 import './BestOfAdidasCarousel.css'
 import NewArrivalsProduct from './NewArrivalsProduct';
 

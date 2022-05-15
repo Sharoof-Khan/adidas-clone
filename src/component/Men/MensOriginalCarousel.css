@@ -1,0 +1,22 @@
+.mensOriginalCarousel{
+    width: 90%;
+    position: relative;
+}
+
+.mensOriginalCarousel>h1{
+    margin-left: 9%;
+    font-style: italic;
+}
+
+.mensOriginalCarousel>:nth-child(2){
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mensOriginalCarousel>:nth-child(3){
+    margin-left: 5%;
+}

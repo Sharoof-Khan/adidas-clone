@@ -1,0 +1,42 @@
+.menOption{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.menOption>div{
+    height: 250px;
+    width: 300px;
+    background: #EEEEEE;
+    /* border: 2px solid gray   ; */
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.menOption>div>img{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    /* border: 2px solid red; */
+}
+.menOption>div>p{
+    position: absolute;
+    top: 80%;
+    left: 38%;
+
+    text-decoration: underline;
+}
+
+.menOption>div>p:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+.menOption>:nth-child(1)>p{
+    left: 25%;
+}
+.menOption>:nth-child(3)>p{
+    left: 15%;
+}

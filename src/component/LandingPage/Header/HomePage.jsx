@@ -10,12 +10,13 @@ import HomeBottomStories from './HomeBottomStories';
 import GetOff from './GetOff';
 import Options from './Options';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
   return (
       <div>
-          <Header />
-          <HeaderMain />
+          {/* <Header /> */}
+          {/* <HeaderMain /> */}
           <div className='runTogether'>
               <p>TOGETHER,LET'S RUN</p>
               <small>From May 23, let's Run For The Oceans and help end plastic waste. Together,Impossible is Nothing</small>
@@ -40,11 +41,13 @@ const HomePage = () => {
           <div className="gender">
               <h1>WHO ARE YOU SHOPPING FOR?</h1>
               <div className='genderOptions'>
-                  <div>
+                  <Link to={"/men"}>
+                  <div className='men1'>
 
                       <span>MEN</span>
-                      <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/evergreen-homepage-gender-navigation-men-dt_tcm209-761437.jpg" alt="Men" />
+                      <img className='men1Img' src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/evergreen-homepage-gender-navigation-men-dt_tcm209-761437.jpg" alt="Men" />
                   </div>
+                  </Link>
                   <div>
                       <span>WOMEN</span>
                       <img src="https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/enIN/Images/womens_1_tcm209-792193.png" alt="women" />

@@ -1,0 +1,42 @@
+.MensOriginalProductTop {
+    position: relative;
+}
+
+.MensOriginalProductTop>:nth-child(2) {
+    position: absolute;
+    top: 20px;
+    left: 85%;
+    /* color: red; */
+}
+
+.MensOriginalProductTop>:nth-child(1) {
+    object-fit: contain;
+    width: 100%;
+    height: 40vh;
+}
+
+.MensOriginalProductTop>:nth-child(3) {
+    padding: 2px;
+    background-color: white;
+    position: absolute;
+    top: 83%;
+    left: 2%;
+    width: 40%;
+    text-align: center;
+    /* border: 1px solid gray; */
+}
+
+.MensOriginalProductTop:hover {
+    border: 1px solid black;
+
+}
+
+.productInfo>:nth-child(2) {
+    color: gray;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    font-weight: 600;
+}
