@@ -15,7 +15,8 @@ const NewArrivalsCarousel = () => {
   const [newArrival, setNewArrival] = useState(null)
   
   useEffect(() => {
-    fetch('http://localhost:3001/newArrivals')
+    // fetch('http://localhost:3001/newArrivals')
+       fetch('https://sharoof-adidas-clone.herokuapp.com/newArrivals')
       .then((res) => res.json())
     .then((data) => setNewArrival(data))
   }, [])

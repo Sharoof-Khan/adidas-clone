@@ -14,7 +14,8 @@ const BestOfAdidasCarousel = () => {
      const [bestOfAdidas, setBestOfAdidas] = useState(null)
   
   useEffect(() => {
-    fetch('http://localhost:3001/bestofadidas')
+    // fetch('http://localhost:3001/bestofadidas')
+    fetch('https://sharoof-adidas-clone.herokuapp.com/bestofadidas')
       .then((res) => res.json())
     .then((data) => setBestOfAdidas(data))
   }, [])

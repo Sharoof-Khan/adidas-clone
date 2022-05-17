@@ -1,6 +1,6 @@
 import React from 'react'
 import './CheckoutProduct.css'
-import StarIcon from '@material-ui/icons/Star';
+// import StarIcon from '@material-ui/icons/Star';
 
 
 const CheckoutProduct = ({id,img,title,price}) => {

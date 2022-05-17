@@ -1,7 +1,7 @@
 import React from 'react'
 // import {useStateValue} from "../../context/StateProvider"
 import { useStateValue } from '../../context/StateProvider';
-import GetOff from '../LandingPage/Header/GetOff';
+// import GetOff from '../LandingPage/Header/GetOff';
 import './Checkout.css'
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';

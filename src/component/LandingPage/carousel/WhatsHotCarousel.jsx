@@ -13,7 +13,8 @@ const breakPoints = [
 const WhatsHotCarousel = () => {
   const [whatsHot, setWhatsHot] = useState(null)
   useEffect(() => {
-    fetch('http://localhost:3001/whatsHot')
+    // fetch('http://localhost:3001/whatsHot')
+    fetch('https://sharoof-adidas-clone.herokuapp.com/whatsHot')
       .then((res) => res.json())
     .then((data) => setWhatsHot(data))
   }, [])
