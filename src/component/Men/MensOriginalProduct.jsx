@@ -19,6 +19,10 @@ const MensOriginalProduct = ({id,title,price,tag,img,lounch}) => {
                 price,
             },
         })
+      
+      setTimeout(() => (
+        alert(`Item Added To Cart`)
+      ),300)
         
     }
 

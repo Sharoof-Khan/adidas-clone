@@ -52,8 +52,8 @@ const HeaderMain = () => {
                       
                       <Link to={'checkout'}>
                       
-                          <p> <ShoppingCartOutlinedIcon /> </p>
-                          <span className='headerBasketCount'>{ cart.length}</span>
+                          <p className='headerMainBottomRightOptionCartLogo'> <ShoppingCartOutlinedIcon /> </p>
+                          <span className='headerBasketCount headerMainBottomRightOptionCartCount '>{ cart.length}</span>
                       </Link>
                   </div>
                   

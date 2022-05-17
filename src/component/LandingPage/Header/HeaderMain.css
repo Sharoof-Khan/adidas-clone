@@ -60,7 +60,7 @@
 }
 .headerMainBottomSearchIcon{
     position: absolute;
-    right: 200px;
+    right: 120%;
 
     top: 2px;
 
@@ -91,10 +91,32 @@
 .headerBasketCount{
     position: absolute;
 
-    top: 5%;
-    right: -15%;
+    top: 0;
+    /* border: 1px solid red; */
+    right: -40%;
     font-weight: 600;
     font-size: 1.3rem;
-    color: red;
+    /* color: red; */
 }
+
+.headerMainBottomRightOptionCartLogo{
+    position: absolute;
+    /* color: red; */
+    /* border: 2px solid green; */
+    top: -15px;
+    color: black;
+}
+
+/* .headerMainBottomRightOptionCart{
+    position: absolute;
+    top: 0%;
+} */
+
+.headerMainBottomRightOptionCartCount{
+    position: absolute;
+    color: black;
+    top: -2px;
+}
+
+
 

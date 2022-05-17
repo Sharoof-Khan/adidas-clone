@@ -15,11 +15,11 @@ const MenSection = () => {
           {/* <HeaderMain/> */}
           
                 <video loop playsInline autoPlay muted>
-              <source 
-              src='https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-ss22-ultraboost-launch-hp-masthead-large-3d-d_wwmaoe.mp4'
-                  type='video/mp4'
-              />
-              </video>
+                  <source 
+                    src='https://brand.assets.adidas.com/video/upload/q_auto,vc_auto/video/upload/running-ss22-ultraboost-launch-hp-masthead-large-3d-d_wwmaoe.mp4'
+                    type='video/mp4'
+                  />
+               </video>
           
               <h1 className='title'>ULTRRABOOST 22 </h1>
               <p className='desc'>Supreme energy return meets 360 <sup>o</sup> fit improvement.Own your energy and achieve your  impossible.  </p>
