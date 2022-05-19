@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { StateProvider } from './context/StateProvider';
-import { initialState, reducer } from './context/reducer'
+// import { StateProvider } from './context/StateProvider';
+// import { initialState, reducer } from './context/reducer'
 import {BrowserRouter} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import {store} from './redux/store'
@@ -17,10 +17,10 @@ root.render(
       <Provider store={store}>
 
       
-      <StateProvider initialState={initialState} reducer = {reducer}>
+      {/* <StateProvider initialState={initialState} reducer = {reducer}> */}
         
     <App />
-      </StateProvider>
+      {/* </StateProvider> */}
       </Provider>
     </BrowserRouter>
   </React.StrictMode>
