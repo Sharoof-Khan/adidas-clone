@@ -26,7 +26,7 @@ const WhatsHotCarousel = () => {
           <h1>WHATS HOT</h1>
           <Carousel breakPoints={breakPoints} outerSpacing={0} >
               {whatsHot && whatsHot.map((e) => (
-                  <WhatsHotProduct id = {e.id} title = {e.title} desc = {e.desc} img = {e.img} action = {e.action} />
+                  <WhatsHotProduct id = {e.id} title = {e.title} desc = {e.desc} img = {e.img} action = {e.action} key = {e.id} />
               ))}
 
           </Carousel>
