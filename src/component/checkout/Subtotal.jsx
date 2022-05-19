@@ -1,16 +1,17 @@
 import React from 'react'
 import './Subtotal.css'
 import CurrencyFormat from 'react-currency-format';
-// import { useStateValue } from '../context/StateProvider';
-import {useStateValue} from '../../context/StateProvider'
-import { getCartTotal } from '../../context/reducer';
+import { useSelector } from 'react-redux';
+import {getCartTotal} from '../../redux/reducer/reducer'
 
 
 const Subtotal = () => {
 
-    const [{ cart }, dispathch] = useStateValue()
+    const cartItems = useSelector(state => state.cart)
+
+
     
-    // console.log(cart,'crt');
+    // console.log(cartItems,'crtItem');
   return (
       <div className='subtotal'>
           {/* Subtotal */}
@@ -19,7 +20,8 @@ const Subtotal = () => {
                   <>
                       <p>
                           {/* SubTotal (0 items): */}
-                          SubTotal ({ cart?.length}items)
+                          SubTotal ({ cartItems?.length}items)
+
                           <strong>{value}</strong>
                       </p>
 
@@ -30,7 +32,7 @@ const Subtotal = () => {
                   </>
               )}
               decimalScale={2}
-              value={getCartTotal(cart)}
+              value={getCartTotal(cartItems)}
               displayType={'text'}
               thousandSeparator={true}
               prefix = {" ₹ "}

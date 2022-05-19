@@ -1,4 +1,5 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 // import {useStateValue} from "../../context/StateProvider"
 import { useStateValue } from '../../context/StateProvider';
 // import GetOff from '../LandingPage/Header/GetOff';
@@ -7,7 +8,12 @@ import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 
 const Checkout = () => {
-    const [{cart},dispatch] = useStateValue()
+    // const [{cart},dispatch] = useStateValue()
+    const cartItems = useSelector(state => state.cart)
+
+    // console.log(cartItems,'Checkout');
+
+
 
   return (
     <div className='checkout'>
@@ -33,12 +39,13 @@ const Checkout = () => {
                   /> */}
                   
 
-                  {cart.map(item => (
+                  {cartItems.map(item => (
                       <CheckoutProduct
                           id={item.id}
                           title={item.title}
                           img={item.img}
                           price={item.price}
+                          key = {item.id}
                         //   rating = {item.rating}
                       />
                   ))}

@@ -1,16 +1,16 @@
 import React from 'react'
 import './HeaderMain.css'
-import Typography from '@material-ui/core/Typography';
 import SearchIcon from '@material-ui/icons/Search';
 import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { Link } from 'react-router-dom';
-import { useStateValue } from '../../../context/StateProvider';
+import { useSelector } from 'react-redux';
 
 
 const HeaderMain = () => {
-    const [{cart},dispatch] = useStateValue()
+  const cartItems = useSelector(state => state.cart)
+    
 
   return (
       <div className='headerMain'>
@@ -53,7 +53,7 @@ const HeaderMain = () => {
                       <Link to={'checkout'}>
                       
                           <p className='headerMainBottomRightOptionCartLogo'> <ShoppingCartOutlinedIcon /> </p>
-                          <span className='headerBasketCount headerMainBottomRightOptionCartCount '>{ cart.length}</span>
+                          <span className='headerBasketCount headerMainBottomRightOptionCartCount '>{ cartItems?.length}</span>
                       </Link>
                   </div>
                   

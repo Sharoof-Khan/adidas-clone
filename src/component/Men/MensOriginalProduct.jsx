@@ -2,30 +2,51 @@ import React from 'react'
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 // import './NewArrivalsProduct.css'
 import './MensOriginalProduct.css'
-import { useStateValue } from '../../context/StateProvider';
+import { useDispatch,useSelector } from 'react-redux';
+import {addToCart} from '../../redux/action/action'
 
 
 const MensOriginalProduct = ({id,title,price,tag,img,lounch}) => {
-    const [{ cart }, dispatch] = useStateValue()
-    
-    
-    const addToCart = () => {
-        dispatch({
-            type: "ADD_TO_CART",
-            item: {
-                id,
-                title,
-                img,
-                price,
-            },
-        })
-      
-      setTimeout(() => (
-        alert(`Item Added To Cart`)
-      ),300)
-        
+  
+  // const cartItems = useSelector(state => state.cart)
+  const dispatch = useDispatch()
+
+  const handleAddToCart = () => {
+    const item = {
+      id,
+      title,
+      img,
+      price
     }
 
+     const action = addToCart(item)
+      dispatch(action)
+    setTimeout(() => (
+        alert(`Item Added To Cart`)
+      ),300)
+  /*  const exist = false;
+    cartItems.map((cItem) => {
+      if (item.id == cItem.id) {
+        exist = true
+        
+      }
+      
+    })
+
+    if (!exist) {
+      
+      const action = addToCart(item)
+      dispatch(action)
+    } else {
+      // alert('Item Already Exist')
+    }
+    */
+
+  }
+  
+    
+    
+    
   return (
     <div className='MensOriginalProduct' key={id}>
       <div className='MensOriginalProductTop'>
@@ -39,7 +60,7 @@ const MensOriginalProduct = ({id,title,price,tag,img,lounch}) => {
         <p>{ lounch}</p>
           </div>
 
-          <button onClick={ addToCart}>Add To Cart</button>
+          <button onClick={handleAddToCart }>Add To Cart</button>
           
     </div>
   )

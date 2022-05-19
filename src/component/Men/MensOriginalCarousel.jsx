@@ -15,14 +15,12 @@ const MensOriginalCarousel = () => {
     const [menoriginal, setMenoriginal] = useState(null)
     
     useEffect(() => {
-        // fetch('http://localhost:3001/mensoriginal')
         fetch('https://sharoof-adidas-clone.herokuapp.com/mensoriginal')
         
       .then((res) => res.json())
     .then((data) => setMenoriginal(data))
   }, [])
 
-    // console.log(menoriginal,'men');
   return (
       <div className='mensOriginalCarousel'>
           <h1>MEN ORIGINALS</h1>

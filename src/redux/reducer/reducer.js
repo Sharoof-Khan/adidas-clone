@@ -3,17 +3,22 @@ const initState = {
     cart:[]
 }
 
+// console.log(initState.cart,'before');
+
 export const getCartTotal = (cart) =>  
-    cart?.reduce((amount,item) => item.price + amount,0 )
+    cart?.reduce((amount,payload) => payload.price + amount,0 )
 
 export const reducer = (state = initState, action) => {
     switch (action.type) {
         case ADD_TO_CART:
+// console.log(state.cart,'after');
+
 
             return {
                 ...state,
                 // cart: action.payload
-                cart: [...state.cart,action.item]
+                cart: [...state.cart, action.payload]
+                
             }
         
         case REMOVE_FROM_CART:
@@ -36,6 +41,12 @@ export const reducer = (state = initState, action) => {
                 ...state,
                 cart:newCart
             }
+
+
+            /*return {
+                ...state,
+                cart: state.cart.filter((el) => el.id !== action.id)
+            }*/
 
         
             

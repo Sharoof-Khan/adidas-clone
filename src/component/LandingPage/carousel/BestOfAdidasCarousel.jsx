@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Carousel from 'react-elastic-carousel'
 import './BestOfAdidasCarousel.css'
 import NewArrivalsProduct from './NewArrivalsProduct';
+import {useDispatch,useSelector}  from 'react-redux'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -11,6 +12,8 @@ const breakPoints = [
 ];
 
 const BestOfAdidasCarousel = () => {
+
+  // const dispatch = useDispatch()
      const [bestOfAdidas, setBestOfAdidas] = useState(null)
   
   useEffect(() => {
